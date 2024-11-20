@@ -20,6 +20,7 @@ public class Todo extends BaseEntity {
     @Id
     @GeneratedValue(strategy = IDENTITY)
     private Long id;
+    
 
     @Column(nullable = false)
     private String content;
